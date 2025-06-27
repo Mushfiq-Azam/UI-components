@@ -1,0 +1,17 @@
+ .parent {
+      display: flex;
+      flex-direction: row; /* try: row, column-reverse */
+      align-items: center;    /* try: flex-start, flex-end, stretch */
+      height: 100vh;
+      padding: 20px;
+      background: #f0f0f0;
+    }
+    .child {
+      background: #4CAF50;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      flex: 1; /* each box takes equal width */
+      margin: 10px;
+      border-radius: 10px;
+    }
